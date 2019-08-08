@@ -1,3 +1,5 @@
+package HelloWorld;
+
 
 /**
  * First class.
@@ -16,7 +18,7 @@ public class FirstClass
     public FirstClass()
     {
         // initialise instance variables
-        x = 0;
+        x = 5;
     }
 
     /**
