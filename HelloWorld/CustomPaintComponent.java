@@ -11,6 +11,6 @@ public class CustomPaintComponent extends Component
         int w = getSize().width-1;
         int h = getSize().height-1;
         
-        g2d.fillRect(x, y, w, h);
+        g2d.fillArc(x, y, w, h, 0, 120);
     }
 }
